@@ -1,3 +1,10 @@
+<!-- 
+  Section: Web Development
+  Project: One-Page Portfolio Website
+  Page: index.html
+  Author: Jaina Mehndiratta
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +13,7 @@
   <title>My Portfolio</title>
 </head>
 <body>
+  <a href="#main">Skip to main content</a>
   <header>
     <h1>Jaina Mehndiratta</h1>
     <nav>
@@ -17,20 +25,20 @@
     </nav>
   </header>
 
-  <main>
+ <main id="main">
     <section>
-      <h3>Welcome to my Portfolio</h3>
+      <h2>Welcome to my Portfolio</h2>
       <p>Hello! I am a Web Development student. This is my personal portfolio website.</p>
     </section>
 
     <section id="about">
-      <h3>About Me</h3>
+      <h2>About Me</h2>
       <img src="images/profile.png" alt="Profile picture of Jaina" width="200">
       <p>I am passionate about learning web development and building creative projects.</p>
     </section>
-
+   
     <section id="projects">
-      <h3>My Projects</h3>
+      <h2>My Projects</h2>
       <ul>
         <li><strong>Portfolio Website:</strong> A personal one-page website to showcase my bio, skills, and contact details.</li>
         <li><strong>Medium Clone:</strong> A simple blog layout that looks like Medium, built only with HTML and CSS.</li>
@@ -40,7 +48,7 @@
     </section>
 
     <section id="skills">
-      <h3>Technical Skills</h3>
+      <h2>Technical Skills</h2>
       <table border="3" cellspacing="2" cellpadding="6">
         <thead>
           <tr>
@@ -59,7 +67,7 @@
     </section>
 
     <section id="contact">
-      <h3>Contact Me</h3>
+      <h2>Contact Me</h2>
       <form>
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" placeholder="Write your name" required>
@@ -77,6 +85,6 @@
       </form>
     </section>
   </main>
-
+<footer><p>Created by Jaina Mehndiratta</p></footer>
 </body>
 </html>
